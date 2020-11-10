@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.1'
-
+# require 'em/pure_ruby'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use sqlite3 as the database for Active Record
@@ -28,6 +28,14 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
+gem 'bulma-rails', '~> 0.6.1'
+
+gem 'simple_form'
+
+gem 'gravatar_image_tag', '~> 1.2'
+
+gem 'devise', '~> 4.3'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -35,7 +43,15 @@ end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
+  gem 'eventmachine', '1.0.9.1'
   gem 'web-console', '>= 3.3.0'
+  gem 'listen', '< 3.2'
+  gem 'spring'
+  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'better_errors', '~> 2.4'
+  gem 'guard', '~> 2.16', '>= 2.16.2'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+
 end
 
 group :test do

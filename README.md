@@ -1,24 +1,49 @@
-# README
+# Twitter Clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Twitter Clone built following the guide of the Youtube videos titles: "Let's Build: A Twitter Clone With Ruby on Rails", created by the Youtube channel "Web-Crunch".
 
-Things you may want to cover:
+## Built With
+- HTML
+- CSS
+- Bootstrap
+- Javascript
+- npm packages
+- Ruby
+- Rails framework
+- MVC design pattern
 
-* Ruby version
+### Additional Gems
+- listen
+- spring
+- spring-watcher-listen
+- better_errors
+- guard
+- guard-livereload
+- bulma-rails
+- simple_form
 
-* System dependencies
 
-* Configuration
+## Authors
+- 👤GitHub: [Jose Abel Ramirez](https://github.com/jose-Abel)
+- Linkedin: [Jose Abel Ramirez Frontany](https://www.linkedin.com/in/jose-abel-ramirez-frontany-7674a842/)
 
-* Database creation
 
-* Database initialization
+## Getting Started
+You can clone this code anytime with the following command:
+- git clone https://github.com/jose-Abel/finance-tracker.git
 
-* How to run the test suite
+In the terminal, to have all the gems and packages to reproduce this project, run the following commands:
 
-* Services (job queues, cache servers, search engines, etc.)
+- bundle install --without production
+- guard init livereload
 
-* Deployment instructions
 
-* ...
+### Acknowledgments
+Appreciate the teams at Web-Crunch since by building this project taught me a lot of Ruby on Rails concepts and design principles.
+
+## 📝 License
+This project is MIT licensed.
+
+
+## Show your support
+Give a ⭐️ if you like this project!
