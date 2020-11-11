@@ -34,9 +34,12 @@ You can clone this code anytime with the following command:
 
 In the terminal, to have all the gems and packages to reproduce this project, run the following commands:
 
-- bundle install --without production
+- bundle install
 - guard init livereload
 
+To run the project locally has to run the local rails server and the guard command to compile the scss files, so run the following commands
+- rails s 
+- bundle exec guard
 
 ### Acknowledgments
 Appreciate the teams at Web-Crunch since by building this project taught me a lot of Ruby on Rails concepts and design principles.
